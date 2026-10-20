@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Manish",
+        "salary": 12.0,
+        "experience": 2.0
+    },
+    {
+        "name": "Saanu",
+        "salary": 3.0,
+        "experience": 1.0
+    },
+    {
+        "name": "Shiv",
+        "salary": 212.0,
+        "experience": 444.0
+    },
+    {
+        "name": "Arru",
+        "salary": 1230.0,
+        "experience": 0.0
+    },
+    {
+        "name": "Kavya",
+        "salary": 890.0,
+        "experience": 8.0
+    },
+    {
+        "name": "Manish",
+        "salary": 12.0,
+        "experience": 2.0
+    }
+]
