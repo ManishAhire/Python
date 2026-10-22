@@ -1,0 +1,53 @@
+[
+    {
+        "hostname": "web-server-01",
+        "status": "HEALTHY",
+        "alerts": [],
+        "errors": []
+    },
+    {
+        "hostname": "web-server-02",
+        "status": "WARNING",
+        "alerts": [
+            "CPU usage is above 80%",
+            "Memory usage is above 85%"
+        ],
+        "errors": []
+    },
+    {
+        "hostname": "db-server-01",
+        "status": "CRITICAL",
+        "alerts": [
+            "CPU usage is above 80%",
+            "Memory usage is above 85%",
+            "Disk usage is above 90%"
+        ],
+        "errors": []
+    },
+    {
+        "hostname": "db-server-02",
+        "status": "UNKNOWN",
+        "alerts": [],
+        "errors": [
+            "cpu_usage must be numeric",
+            "memory_usage must be numeric",
+            "disk_usage must be numeric"
+        ]
+    },
+    {
+        "hostname": "web-server-03",
+        "status": "UNKNOWN",
+        "alerts": [],
+        "errors": [
+            "disk_usage is missing"
+        ]
+    },
+    {
+        "hostname": "web-server-04",
+        "status": "UNKNOWN",
+        "alerts": [],
+        "errors": [
+            "cpu_usage must be between 0 and 100"
+        ]
+    }
+]
